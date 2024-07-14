@@ -1,0 +1,16 @@
+.Nav{
+    list-style-type: none;
+    display: flex;
+    justify-content:end;
+    align-items:center;
+    text-align: center;
+    li{
+        margin-left: 25px;
+        color: #000;
+        text-align: right;
+        font-family: "Montserrat", sans-serif;
+        font-size: calc(10px + 1.5vmin);
+        font-style: normal;
+        font-weight: 500;
+    }
+}

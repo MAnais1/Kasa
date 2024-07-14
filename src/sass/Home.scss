@@ -1,0 +1,27 @@
+.gallery{
+    border-radius: 25px;   
+    background: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+    margin-bottom: 3%;
+
+}
+@media screen and (max-width: 800px){
+    .gallery{
+        flex-direction: column;
+        padding-bottom: 1.2%;
+        background-color: white;
+        padding-left: 0%;
+        .Card{
+            width: 100%;
+            height: 255px;
+            margin-top: 1.2%;
+            .titre{
+                bottom: 0px;
+                height: 23%;
+            }
+        }
+    }
+}
