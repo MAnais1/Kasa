@@ -6,15 +6,35 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    .arrow-number{
+        display: flex;
+    }
+    .arrow-numberNone{
+        display: none;
+    }
     .arrow{
        cursor: pointer;
        position:absolute;
+       @media screen and (max-width: 800px){
+        height: 60px;
+       }
     }
     .arrowLeft{
-        right: 92%;
+        left: 30px;
+        top: 170px;
     }
     .arrowRight{
-        left: 92%;
+        top: 170px;
+        right: 30px;
+    }
+    .numbering{
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        color: white;
+        font-size: 18px;
+        font-family: "Monstserrat",sans-serif;
+       
     }
     .picture{
         object-fit:cover;

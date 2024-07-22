@@ -1,27 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import './sass/index.scss';
-import reportWebVitals from './reportWebVitals';
-import Header from './components/Header';
-import Footer from './components/Footer'
-import Home from './pages/Home';
-import About from './pages/About';
-import Error from './pages/Error'
-import Location from './components/Location'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./sass/index.scss";
+import reportWebVitals from "./reportWebVitals";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Error from "./pages/Error";
+import Location from "./pages/Location";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      <Header/>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/location/:id' element={<Location/>}/>
-        <Route path='*' element={<Error />} />
-      </Routes>
-      <Footer/>
+      <div className="main">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/location/:id" element={<Location />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+      </div>
+      <Footer />
     </Router>
   </React.StrictMode>
 );

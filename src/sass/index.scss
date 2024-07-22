@@ -1,9 +1,11 @@
 #root{
+    /**max-width: 80%;
     margin-right: 80px;
-    margin-left: 80px;
-    .Footer{
-        margin-right: -90px;
-        margin-left: -90px;
+    margin-left: 80px;*/
+    .main{
+        max-width: 80%;
+        min-width: 400px;
+        margin: auto;
     }
 }
 @media screen and (max-width: 800px){
@@ -11,4 +13,5 @@
         margin-right: 1%;
         margin-left: 1%;
     }
+
 }

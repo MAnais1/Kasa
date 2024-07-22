@@ -1,0 +1,31 @@
+.error {
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+  h1 {
+    color: #ff6060;
+    
+    font-size: 288px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 50px;
+    @media screen and (max-width: 800px){
+      font-size: 200px;
+    }
+  }
+  h2 {
+    color: #ff6060;
+    
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin-bottom: 130px;
+  }
+  .return{
+      margin-bottom: 130px;
+  }
+  a{
+    font-size: 18px;
+    color: black;
+  }
+}

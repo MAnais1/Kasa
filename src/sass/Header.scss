@@ -6,8 +6,15 @@
     width: 100%;
     margin-top: 1%;
     margin-bottom: 10px;
-    
     .logo{
        height: 70%;
+    }
+    ul{
+        .underlineOff{
+            text-decoration: none;
+        }
+        .underlineOn{
+            text-decoration: underline black;
+        }
     }
 }
